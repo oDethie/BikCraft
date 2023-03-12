@@ -180,3 +180,23 @@ footer {
   text-transform: capitalize;
   font-weight: bold;
 }
+
+@media (max-width: 1000px) {
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .conteudo-descricao {
+    text-align: center;
+    justify-items: center;
+  }
+
+  .conteudo-titulo::before {
+    content: none;
+  }
+
+  .vantagem-titulo {
+    text-align: center;
+    padding: 5rem 0px;
+  }
+}
