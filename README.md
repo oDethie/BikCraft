@@ -1,2 +1,2 @@
 # BikCraft
-Site criado usando HTML/CSS. Está sem responsividade
+Site criado usando HTML/CSS.
